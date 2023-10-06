@@ -1,0 +1,17 @@
+{
+  "name": "pw4",
+  "version": "1.0.0",
+  "description": "Playwright end-to-end tests gor local.coding.us",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "Veronika Yanko",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.2"
+  },
+  "dependencies": {
+    "@playwright/test": "1.38.1"
+  }
+}
