@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Playwright end-to-end tests gor local.coding.us",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "test: debug": "playwright test --headed",
+    "report": "playwright show-report"
   },
   "keywords": [],
   "author": "Veronika Yanko",
